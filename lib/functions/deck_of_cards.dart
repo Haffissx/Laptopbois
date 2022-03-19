@@ -9,6 +9,10 @@ Make this function return the List of integers.
  */
 
 List<int> DeckOfCards(){
+  List <int> spades [1,2,3,4,5,6,7,8,9,10,12,13];
+  List <int> clubs [1,2,3,4,5,6,7,8,9,10,12,13];
+  List <int> hearts [1,2,3,4,5,6,7,8,9,10,12,13];
+  List <int> diamonds [1,2,3,4,5,6,7,8,9,10,12,13];
 
 }
 
