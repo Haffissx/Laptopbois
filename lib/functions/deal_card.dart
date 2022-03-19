@@ -17,7 +17,6 @@ print(deck); // Should print [2, 3, 4]
  */
 
 
-int DealCard(int dealCard){
 int DealCard(List <int> deck){
   int myCard = deck.removeAt(0);
   print(myCard);
