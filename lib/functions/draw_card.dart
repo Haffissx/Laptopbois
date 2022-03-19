@@ -1,3 +1,6 @@
+
+import 'package:BlackJack/functions/deck_of_cards.dart';
+
 import 'deal_card.dart';
 
 /*
@@ -17,5 +20,7 @@ print(hand); // Should print [1]
  */
 
 void DrawCard(List<int> hand, List<int> deck){
-
+    hand.add(DealCard(deck));
+    print(deck.getRange(0, 5));
+    print(hand);
 }
