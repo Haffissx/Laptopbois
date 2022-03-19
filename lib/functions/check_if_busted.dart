@@ -1,3 +1,5 @@
+import 'package:BlackJack/functions/functions.dart';
+
 import 'score_function.dart';
 
 /*
@@ -19,6 +21,15 @@ Example inputs
  */
 
 
-bool CheckIfBusted(List<int> hand){
+bool CheckIfBusted(List<int> hand) {
+  int result = CalculateScore(hand);
 
+  if (result > 21){
+    print('true');
+    return true;
+  } else{
+    print('false');
+  return false;
 }
+}
+
