@@ -32,4 +32,8 @@ void InitialDeal(List<int> playerHand, List<int> houseHand, List<int> deck){
     houseHand.add(DealCard(deck));
     initiadeal++;
   }
+  print(playerHand);
+  print(houseHand);
+  print(deck);
+  print('Inital deal');
 }
