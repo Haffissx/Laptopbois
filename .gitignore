@@ -4,3 +4,6 @@
 .idea/libraries/Dart_SDK.xml
 .packages
 pubspec.lock
+.dart_tool/package_config.json
+.idea/libraries/Dart_SDK.xml
+.packages
