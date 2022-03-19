@@ -16,6 +16,7 @@ List<int> DeckOfCards(){
     }
   }
   print(deck);
+  return deck;
 }
 
 
