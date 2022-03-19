@@ -15,7 +15,6 @@ List<int> DeckOfCards(){
       deck.add(sort);
     }
   }
-  print(deck);
   return deck;
 }
 

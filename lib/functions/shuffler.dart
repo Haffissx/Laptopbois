@@ -8,5 +8,9 @@ I.e, it should return a RANDOMIZED version of the list.
  */
 
 List<int> Shuffler(List<int> theList){
-
+  for (int i = 0; i < theList.length; i++){
+    print(theList[i]);
+    theList.shuffle();
+  }
+  return theList;
 }
