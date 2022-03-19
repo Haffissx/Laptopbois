@@ -1,3 +1,5 @@
+import 'dart:io';
+
 
 /*
 Create a function called DealCard
@@ -13,6 +15,16 @@ print(deck); // Should print [2, 3, 4]
  */
 
 
-int DealCard(List<int> deck){
+int DealCard(int dealCard){
+  List<int> deck = [1, 2, 3, 4];
+  int myCard;
+  myCard = (deck[dealCard]);
+  deck.remove(myCard);
+  print("deck: $deck");
+  print("myCard: $myCard");
+  return myCard;
+
+
+
 
 }
