@@ -1,3 +1,6 @@
+import 'package:BlackJack/functions/deal_card.dart';
+import 'package:BlackJack/functions/deck_of_cards.dart';
+
 import 'draw_card.dart';
 
 /*
@@ -23,5 +26,10 @@ print(dealerHand); // Should print [2, 4]
  */
 
 void InitialDeal(List<int> playerHand, List<int> houseHand, List<int> deck){
-
+  int initiadeal = 0;
+  while(initiadeal < 2){
+    playerHand.add(DealCard(deck));
+    houseHand.add(DealCard(deck));
+    initiadeal++;
+  }
 }
