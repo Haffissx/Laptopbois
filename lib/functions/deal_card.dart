@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'package:BlackJack/functions/deck_of_cards.dart';
+
 
 /*
 Create a function called DealCard
@@ -16,15 +18,8 @@ print(deck); // Should print [2, 3, 4]
 
 
 int DealCard(int dealCard){
-  List<int> deck = [1, 2, 3, 4];
-  int myCard;
-  myCard = (deck[dealCard]);
-  deck.remove(myCard);
-  print("deck: $deck");
-  print("myCard: $myCard");
-  return myCard;
-
-
-
-
+int DealCard(List <int> deck){
+  int myCard = deck.removeAt(0);
+  print(myCard);
+  return deck.removeAt(0);
 }
