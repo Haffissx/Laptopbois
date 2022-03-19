@@ -31,7 +31,7 @@ String CardNamer(int i){
     return 'Jack';
   } else if (i == 12) {
     return 'Queen';
-  } else (i == 13) {
+  } else if (i == 13) {
     return 'King';
   }
 }
