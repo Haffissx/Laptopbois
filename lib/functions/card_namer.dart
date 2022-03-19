@@ -8,30 +8,30 @@ it should return the name of the corresponding card (Ignore the suit)
 
 String CardNamer(int i){
   if (i == 1) {
-    return String'Ace';
+    return ('Ace');
   } else if (i == 2) {
-    return String 'Two';
+    return 'Two';
   } else if (i == 3) {
-    return String 'Three';
+    return 'Three';
   } else if (i == 4) {
-    return String 'Four';
+    return 'Four';
   } else if (i == 5) {
-    return String 'Five';
+    return 'Five';
   } else if (i == 6) {
-    return String 'Six';
+    return 'Six';
   } else if (i == 7) {
-    return String 'Seven';
+    return 'Seven';
   } else if (i == 8) {
-    return String 'Eight';
+    return 'Eight';
   } else if (i == 9) {
-    return String 'Nine';
+    return 'Nine';
   } else if (i == 10) {
-    return String 'Ten';
+    return 'Ten';
   } else if (i == 11) {
-    return String 'Jack';
+    return 'Jack';
   } else if (i == 12) {
-    return String 'Queen';
+    return 'Queen';
   } else (i == 13) {
-    return String 'King';
+    return 'King';
   }
 }
